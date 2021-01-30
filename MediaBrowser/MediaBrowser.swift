@@ -142,7 +142,7 @@ func floorcgf(x: CGFloat) -> CGFloat {
     public var currentGridContentOffset = CGPoint(x: 0, y: CGFloat.greatestFiniteMagnitude)
     
     /// Set MediaBrowserDelegate for MediaBrowser
-    public weak var delegate: MediaBrowserDelegate?
+    public var delegate: MediaBrowserDelegate?
     
     /// Available zoom photos to fill
     public var zoomPhotosToFill = true
