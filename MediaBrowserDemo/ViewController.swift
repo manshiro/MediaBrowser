@@ -131,7 +131,8 @@ extension ViewController {
         
         switch indexPath.row {
         case 0:
-            mediaArray = DemoData.singlePhoto()
+            //mediaArray = DemoData.singlePhoto()
+            mediaArray = DemoData.gifPhoto()
             enableGrid = false
             break
         case 1:

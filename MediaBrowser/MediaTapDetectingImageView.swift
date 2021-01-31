@@ -8,8 +8,9 @@
 //
 
 import Foundation
+import YLGIFImage
 
-class MediaTapDetectingImageView: UIImageView {
+class MediaTapDetectingImageView: YLImageView {
     weak var tapDelegate: TapDetectingImageViewDelegate?
     
     override init(frame: CGRect) {

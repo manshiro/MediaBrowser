@@ -8,8 +8,18 @@
 
 import Foundation
 import MediaBrowser
+import YLGIFImage
 
 class DemoData {
+    
+    class func gifPhoto() -> [Media] {
+        let path = Bundle.main.url(forResource: "iwatch", withExtension: "gif")
+        let data = try? Data(contentsOf: path!)
+        let image = YLGIFImage(data: data!)
+        let media = Media(image: image!)
+        return [media]
+    }
+    
     class func singlePhoto() -> [Media] {
         let photo = localMediaPhoto(imageName: "MotionBookIcon", caption: "MotionBookIcon")
         
@@ -238,7 +248,6 @@ class DemoData {
 
         return thumbs
     }
-
     
     class func localMediaPhoto(imageName: String, caption: String) -> Media {
         guard let image = UIImage(named: imageName) else {
