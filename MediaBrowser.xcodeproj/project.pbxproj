@@ -32,6 +32,7 @@
 		19E1F62C1F5FD5F8004D3BA8 /* Atoms.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 19E1F62B1F5FD5F8004D3BA8 /* Atoms.mp4 */; };
 		19E1F62E1F5FD8EE004D3BA8 /* MediaBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1F62D1F5FD8EE004D3BA8 /* MediaBrowserDelegate.swift */; };
 		65BB2B6C25C5B10200F2CDBD /* iwatch.gif in Resources */ = {isa = PBXBuildFile; fileRef = 65BB2B6B25C5B10200F2CDBD /* iwatch.gif */; };
+		65BB2E4C25C6D9B100F2CDBD /* YLGIFImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BB2E4B25C6D9B100F2CDBD /* YLGIFImage.framework */; };
 		71596D6C20148BBE00870E29 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71596D6B20148BBE00870E29 /* SDWebImage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		71596D6E20148BC300870E29 /* UICircularProgressRing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71596D6D20148BC300870E29 /* UICircularProgressRing.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		786961890EA7C05AB0704224 /* Pods_MediaBrowserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7711DC6E06460185D3F457 /* Pods_MediaBrowserDemo.framework */; };
@@ -92,6 +93,8 @@
 		56EF6B3B274F5728F0712339 /* Pods-MediaBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediaBrowser/Pods-MediaBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		570922FC966732103FB7D306 /* Pods_MediaBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediaBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BB2B6B25C5B10200F2CDBD /* iwatch.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iwatch.gif; sourceTree = "<group>"; };
+		65BB2DF925C6927C00F2CDBD /* YLGIFImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YLGIFImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BB2E4B25C6D9B100F2CDBD /* YLGIFImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YLGIFImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71596D6B20148BBE00870E29 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = "<group>"; };
 		71596D6D20148BC300870E29 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UICircularProgressRing.framework; path = Carthage/Build/iOS/UICircularProgressRing.framework; sourceTree = "<group>"; };
 		849923070967750DB33DBED9 /* Pods-MediaBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaBrowserDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediaBrowserDemo/Pods-MediaBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +108,7 @@
 			files = (
 				71596D6C20148BBE00870E29 /* SDWebImage.framework in Frameworks */,
 				71596D6E20148BC300870E29 /* UICircularProgressRing.framework in Frameworks */,
+				65BB2E4C25C6D9B100F2CDBD /* YLGIFImage.framework in Frameworks */,
 				1782752C1C0AD35E459547A2 /* Pods_MediaBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +197,8 @@
 		C20AA726BED7B222DA9A2FE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				65BB2E4B25C6D9B100F2CDBD /* YLGIFImage.framework */,
+				65BB2DF925C6927C00F2CDBD /* YLGIFImage.framework */,
 				71596D6D20148BC300870E29 /* UICircularProgressRing.framework */,
 				71596D6B20148BBE00870E29 /* SDWebImage.framework */,
 				570922FC966732103FB7D306 /* Pods_MediaBrowser.framework */,
